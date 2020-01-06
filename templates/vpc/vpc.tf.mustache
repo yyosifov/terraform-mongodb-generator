@@ -1,0 +1,10 @@
+# Defines a new VPC
+resource "aws_vpc" "default" {
+  cidr_block           = "{{{vpc_cidr_block}}}"
+  enable_dns_hostnames = true
+}
+
+# Adds an AWS Internet Gateway to the VPC
+resource "aws_internet_gateway" "default" {
+  vpc_id = "${aws_vpc.default.id}"
+}
