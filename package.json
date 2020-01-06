@@ -1,0 +1,23 @@
+{
+  "name": "terraform-mongodb-generator",
+  "version": "1.0.0",
+  "description": "Generate a MongoDB Replica Set setup with Terraform",
+  "main": "index.js",
+  "scripts": {
+    "start": "tsc && node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yyosifov/terraform-mongodb-generator.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yyosifov/terraform-mongodb-generator/issues"
+  },
+  "homepage": "https://github.com/yyosifov/terraform-mongodb-generator#readme",
+  "devDependencies": {
+    "tslint": "^5.20.1",
+    "typescript": "^3.7.4"
+  }
+}
